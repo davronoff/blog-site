@@ -1,0 +1,366 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+}
+body{
+    padding: 0;
+    margin: 0;
+}
+/* header qismi */
+.site-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 61px;
+    padding-right: 43px;
+    margin-top: 18px;
+}
+.site-header a{
+    display: flex;
+    align-items: center;
+}
+
+.header-logo{
+    margin-right: 14px;
+}
+
+.logo-text{
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 30px;
+    color: #6C63FF;
+}
+.logo-text:hover,
+.logo-text:active{
+    color: blueviolet;
+}
+.logo-text:active{
+    opacity: 0.6;
+}
+
+/* site-nav qismi */
+
+.site-nav-link{
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+.site-nav__item:not(:last-child){
+    margin-right: 36px;
+}
+.site-nav__item>a{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+}
+.site-nav__item a:hover,
+.site-nav__item a:active{
+    color: rgb(12, 141, 33);
+}
+.site-nav__item a:active{
+    opacity: 0.6;
+}
+
+/* Hero qismi boshlanishi */
+.hero{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 61px;
+    padding-right: 49px;
+    margin-top: 42px;
+}
+
+.hero-content{
+    width: 423px;
+}
+
+.hero-content>a{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    padding: 15px 18px;
+    border: 1px solid #B7B3B3;
+    margin-right: 20px;
+}
+.hero-content a:hover,
+.hero-content a:active{
+    background-color: #6C63FF;
+ 
+}
+.hero-title{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 44px;
+    line-height: 54px;
+    color: #000000;
+    margin: 0;
+    margin-bottom: 28px;
+}
+.hero-line{
+    width: 52px;
+    border: 3px solid #B7B3B3;
+    margin-left: 0;
+}
+.hero-text{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+    opacity: 0.6;
+    margin: 0;
+    margin-top: 28px;
+    margin-bottom: 54px;
+}
+
+
+/* promo qismi boshi */
+.promo{
+    margin: 0;
+    margin-top: 180px;
+}
+.promo-header{
+    /* width: 587px; */
+    padding-left: 343px;
+    padding-right: 350px;
+    text-align: center;
+}
+.promo-header .hero-line{
+    margin: auto;
+}
+
+.promo-title{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 44px;
+    line-height: 54px;
+    color: #000000;
+}
+.promo-text{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+    color: #000000;
+    opacity: 0.6;
+}
+.promo-links{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 0;
+    margin-top: 80px;
+    padding-left: 125px;
+    padding-right: 125px;
+}
+.links-title{
+    margin-top: 56px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 27px;
+    line-height: 33px;
+    color: #000000;
+}
+.links-text{
+    width: 198;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+    opacity: 0.6;
+}
+
+/* greed qismini boshlanis */
+
+.greed{
+    margin-top: 200px;
+    margin-bottom: 200px;
+    display: flex;
+    align-items:flex-end;
+    padding-left: 65px;
+    padding-right: 130px;
+}
+.greed-content{
+    width: 423px;
+    margin-left: 160px;
+    margin-bottom: 0;
+}
+.greed-title{
+    margin: 0;margin-bottom: 48px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 49px;
+    color: #000000;
+}
+.greed-text{
+    margin: 0;
+    margin-bottom: 17px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+    opacity: 0.75;
+}
+.greed-link{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 27px;
+    letter-spacing: 0.06em;
+    color: #6C63FF;
+}
+.greed-link:hover,
+.greed-link:active{
+    color: rgb(16, 233, 63);
+}
+.greed-link:active{
+    opacity: 0.6;
+}
+.logo>a{
+    display: flex;
+    align-items: center;
+    margin-left: 140px;
+}
+/* slice qismi boshi */
+.slice{
+    margin: 0;
+    margin-bottom: 150px;
+}
+.slice-header{
+    margin-top: 85px;
+    padding-left: 435px;
+    padding-right: 331px;
+    text-align: center;
+}
+.slice-header>hr{
+    margin: auto;
+}
+
+.slice-title{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 44px;
+    line-height: 54px;
+    color: #000000;
+}
+.slice-text{ 
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #B7B3B3;
+    opacity: 0.8;
+}
+.slice-header{
+    margin: 0;
+    margin-bottom: 120px;
+}
+.slice-tiitle{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 37px;
+    display: flex;
+    align-items: center;
+    text-align: center; 
+    color: #000000;
+}
+.slice-content{
+    display: flex;
+    align-items: flex-end;
+    padding-left: 155px;
+    padding-right: 55px;
+    margin: auto;
+}
+.slice-item{
+    display: flex;
+    align-items: center;
+    margin-bottom: 106px;
+}
+
+.slice-content div{
+    width: 510px;
+    margin-right: 53px;
+}
+.slice-item img {
+    margin-right:20px;
+}
+
+/* Footer qismi boshlandi */
+footer{
+    background: #3d1c97a4;
+    display: flex;
+    align-items:flex-start;
+    justify-content: space-around;
+    padding-top: 150px;
+    padding-left: 50px;
+    padding-right: 100px;
+}
+.footer-text{
+    width: 317px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #B7B3B3;
+}
+.footer-item{
+    list-style: none;
+}
+.footer-item li{
+    margin-bottom: 40px;
+}
+
+
+.footer-item a{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+}
+.footer-item a:hover,
+.footer-item a:active{
+    color: rgb(158, 60, 15);
+}
+.footer-item a:active{
+    opacity: 0.6;
+}
+
+.content a{
+    
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 27px;
+    color: #FFFFFF;
+}
+
+.content  li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    
+}
+
+.content{
+    margin-top: -3PX;
+}
+
+
+.last-child a{
+    color: #8B8B8B;
+}
